@@ -1,8 +1,11 @@
 # Realtime Tracker App
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Node.js](https://img.shields.io/badge/Node.js-v14+-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/prashantsaini1525/RealTime-Tracker/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-v14+-brightgreen.svg)](https://nodejs.org/)
+[![Stars](https://img.shields.io/github/stars/prashantsaini1525/RealTime-Tracker.svg?style=social)](https://github.com/prashantsaini1525/RealTime-Tracker/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/prashantsaini1525/RealTime-Tracker.svg)](https://github.com/prashantsaini1525/RealTime-Tracker/graphs/contributors)
+
 
 ## Overview
 
