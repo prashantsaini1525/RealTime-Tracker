@@ -88,14 +88,6 @@ npm start
 
 - The app should now be running on http://localhost:3000.
 
-## Project Structure
-Realtime-Tracker/
-├── public/
-│   ├── css/
-│   │   └── style.css       # Custom styles for the app
-│   ├── js/
-│   │   ├── main.js         # Entry point of the application (ES6 
-
 ## Roadmap & Future Enhancements
 
 - **Enhanced Security:**  
@@ -103,18 +95,9 @@ Realtime-Tracker/
 
 - **Analytics Dashboard:**  
   Integrate an admin dashboard to view and analyze delivery performance and routes.
-  Further refine the UI for mobile devices to improve user modules)
-│   │   ├── helpers.js      # Utility functions (friendly names, etc.)
-│   │   ├── geolocation.js  # Geolocation handling
-│   │   ├── mapController.js # Map initialization and marker management
-│   │   └── socketHandler.js  # Socket.io event listeners
-│   └── animation/          # Contains Lottie JSON files for markers
-├── views/
-│   └── index.ejs           # Main view template
-├── .env                    # Environment variables (not tracked by git)
-├── .gitignore              # Git ignore rules
-├── app.js                  # Express server configuration
-└── package.json            # NPM configuration fileexperience on smaller screens.
+
+- **Analytics Dashboard:** 
+  Further refine the UI for mobile devices to improve user experience on smaller screens.
 
 - **Push Notifications:**  
   Implement real-time notifications for delivery updates.
