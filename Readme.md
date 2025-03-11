@@ -57,16 +57,16 @@ Realtime Tracker App is a modern web application built to track live locations i
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/prashantsaini1525/RealTime-Tracker.git
-   cd RealTime-Tracker
+```bash
+git clone https://github.com/prashantsaini1525/RealTime-Tracker.git
+cd RealTime-Tracker
 
-   ```
+```
 
 2. **Install Dependencies:**
 
 ```bash
-   npm install
+npm install
 
 ```
 
