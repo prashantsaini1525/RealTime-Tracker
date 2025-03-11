@@ -111,4 +111,4 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
