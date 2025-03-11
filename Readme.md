@@ -71,3 +71,18 @@ Realtime Tracker App is a modern web application built to track live locations i
 ```
 
 3. **Set Up Environment Variables:**
+   Create a .env file in the root directory and add:
+
+```bash
+PORT=3000
+NGROK_AUTH_TOKEN=your_ngrok_auth_token_here
+# Add other sensitive keys if needed
+```
+
+4. **Run the Application:**
+
+```bash
+npm start
+```
+
+The app should now be running on http://localhost:3000.
