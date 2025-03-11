@@ -94,7 +94,16 @@ Realtime-Tracker/
 │   ├── css/
 │   │   └── style.css       # Custom styles for the app
 │   ├── js/
-│   │   ├── main.js         # Entry point of the application (ES6 modules)
+│   │   ├── main.js         # Entry point of the application (ES6 
+
+## Roadmap & Future Enhancements
+
+- **Enhanced Security:**  
+  Add user authentication and secure API endpoints.
+
+- **Analytics Dashboard:**  
+  Integrate an admin dashboard to view and analyze delivery performance and routes.
+  Further refine the UI for mobile devices to improve user modules)
 │   │   ├── helpers.js      # Utility functions (friendly names, etc.)
 │   │   ├── geolocation.js  # Geolocation handling
 │   │   ├── mapController.js # Map initialization and marker management
@@ -105,18 +114,7 @@ Realtime-Tracker/
 ├── .env                    # Environment variables (not tracked by git)
 ├── .gitignore              # Git ignore rules
 ├── app.js                  # Express server configuration
-└── package.json            # NPM configuration file
-
-## Roadmap & Future Enhancements
-
-- **Enhanced Security:**  
-  Add user authentication and secure API endpoints.
-
-- **Analytics Dashboard:**  
-  Integrate an admin dashboard to view and analyze delivery performance and routes.
-
-- **Mobile Optimization:**  
-  Further refine the UI for mobile devices to improve user experience on smaller screens.
+└── package.json            # NPM configuration fileexperience on smaller screens.
 
 - **Push Notifications:**  
   Implement real-time notifications for delivery updates.
