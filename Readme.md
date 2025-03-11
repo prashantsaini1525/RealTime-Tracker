@@ -45,7 +45,8 @@ Realtime Tracker App is a modern web application built to track live locations i
 >
 > Then share the public URL provided by ngrok.
 
-![Realtime Tracker Demo](https://via.placeholder.com/800x400?text=Realtime+Tracker+Demo)
+![Realtime Tracker Demo](./public/images/User.png)
+
 
 ## Tech Stack
 
