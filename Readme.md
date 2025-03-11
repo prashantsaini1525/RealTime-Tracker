@@ -87,3 +87,47 @@ npm start
 ```
 
 - The app should now be running on http://localhost:3000.
+
+## Project Structure
+Realtime-Tracker/
+├── public/
+│   ├── css/
+│   │   └── style.css       # Custom styles for the app
+│   ├── js/
+│   │   ├── main.js         # Entry point of the application (ES6 modules)
+│   │   ├── helpers.js      # Utility functions (friendly names, etc.)
+│   │   ├── geolocation.js  # Geolocation handling
+│   │   ├── mapController.js # Map initialization and marker management
+│   │   └── socketHandler.js  # Socket.io event listeners
+│   └── animation/          # Contains Lottie JSON files for markers
+├── views/
+│   └── index.ejs           # Main view template
+├── .env                    # Environment variables (not tracked by git)
+├── .gitignore              # Git ignore rules
+├── app.js                  # Express server configuration
+└── package.json            # NPM configuration file
+
+## Roadmap & Future Enhancements
+
+- **Enhanced Security:**  
+  Add user authentication and secure API endpoints.
+
+- **Analytics Dashboard:**  
+  Integrate an admin dashboard to view and analyze delivery performance and routes.
+
+- **Mobile Optimization:**  
+  Further refine the UI for mobile devices to improve user experience on smaller screens.
+
+- **Push Notifications:**  
+  Implement real-time notifications for delivery updates.
+
+- **Customizable Themes:**  
+  Allow users to choose different map styles and marker themes.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License.
