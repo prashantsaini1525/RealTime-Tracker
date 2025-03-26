@@ -44,7 +44,7 @@ Realtime Tracker App is a simple real-time tracking application built with Node.
 >
 > This allows you to test your real-time tracking app across multiple devices.
 
-![Realtime Tracker Demo](./public/images/User.png)
+![Realtime Tracker Demo](./public/images/Live%20Tracking.png)
 
 ## Prerequisites
 
