@@ -128,7 +128,15 @@ Once you have the server running, use the following guidelines to test and inter
      ```
    - Use the provided public URL to access the app from other devices, like your mobile phone.
 
-3. **Simulate Geolocation (Desktop):**
+3. Open the App on Multiple Devices
+
+   - On Your Mobile Device:
+   Open the ngrok URL in your mobile browser.
+
+   - On Your Desktop:
+   Open another browser window or tab and visit the same ngrok URL.
+
+4. **Simulate Geolocation (Desktop):**
 
     Using Chrome DevTools (Desktop)
 
@@ -157,6 +165,16 @@ Once you have the server running, use the following guidelines to test and inter
       4. In the mobile session’s Developer Tools, check the Console for the location coordinates.
 
       5. If necessary, copy these coordinates and update the desktop Chrome sensors to match.
+
+    Important Note on Coordinate Accuracy:
+
+      our script.js logs the coordinates for each device using:
+
+      ```bash
+      console.log("Client location:", latitude, longitude);
+
+      ```
+
 
 ## Roadmap & Future Enhancements
 
