@@ -138,7 +138,7 @@ Once you have the server running, use the following guidelines to test and inter
 
       3. Under **Geolocation**, select **Custom location…** and enter specific coordinates.
 
-        - For instance, you can copy the accurate coordinates from your mobile device.
+      - For instance, you can copy the accurate coordinates from your mobile device.
 
       4. Verify the coordinates appear correctly in the console (using console.log in your geolocation callback).
 
