@@ -46,6 +46,8 @@ Realtime Tracker App is a simple real-time tracking application built with Node.
 
 ![Realtime Tracker Demo](./public/images/Live%20Tracking.png)
 
+**Note:** In the image above, the Live Tracker Web App displays two markers—one indicating the location of my desktop PC, and the other showing the location accessed via the ngrok link on my mobile device.
+
 ## Prerequisites
 
 Before setting up the project, ensure you have the following installed:
