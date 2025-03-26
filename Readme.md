@@ -130,14 +130,32 @@ Once you have the server running, use the following guidelines to test and inter
 
 3. **Simulate Geolocation (Desktop):**
 
-   - Open Chrome Developer Tools.
-   - Navigate to **More Tools > Sensors**.
-   - Under **Geolocation**, select **Custom location…** and enter specific coordinates.
-   - This is useful for testing how the app behaves with different locations.
+Using Chrome DevTools (Desktop)
+
+1. Open Chrome Developer Tools.
+
+2. Navigate to **More Tools > Sensors**.
+
+3. Under **Geolocation**, select **Custom location…** and enter specific coordinates.
+   - For instance, you can copy the accurate coordinates from your mobile device.
+
+4. Verify the coordinates appear correctly in the console (using console.log in your geolocation callback).
 
 4. **Testing Real-Time Updates:**
    - Open the app on multiple devices (or multiple Chrome profiles).
    - Verify that location updates are broadcasted and that markers on the map are updated in real time.
+
+Remote Debugging Your Mobile Device
+
+1. Connect your mobile device to your PC via USB.
+
+2. Open Chrome on your PC and navigate to chrome://inspect/#devices.
+
+3. Find and inspect the session running the ngrok URL from your mobile.
+
+4. In the mobile session’s Developer Tools, check the Console for the location coordinates.
+
+5. If necessary, copy these coordinates and update the desktop Chrome sensors to match.
 
 ## Roadmap & Future Enhancements
 
@@ -173,7 +191,10 @@ Contributions are welcome! If you have suggestions or improvements, please follo
 
 3. **Commit Your Changes:**  
    Commit your modifications with clear and concise messages:
+   ```bash
    git commit -m "Add detailed description of your changes"
+
+   ```
 
 4. **Push to Your Branch:**  
    Push your changes to your forked repository:

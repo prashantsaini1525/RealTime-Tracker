@@ -11,6 +11,7 @@ if (navigator.geolocation) {
         (error) => {
             console.error(error);
         },
+
         {
             enableHighAccuracy: true,
             timeout: 5000,
